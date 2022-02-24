@@ -1,0 +1,76 @@
+.parent-div-register
+{
+    width: 90vw;
+    height: 90vh;
+}
+.parent-div-register img
+{
+    width: 106vw;
+    height: 101vh;
+    /* opacity: 0.8; */
+    
+}
+.register {
+    width: 400px;
+    background: linear-gradient(1deg,#1B4F72,#A9E2F3);
+    /* border: 1px solid #dddfe2; */
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    top: 70%;
+    left: 34%;
+    position: absolute;
+    transform: translate(-0%, -80%);
+}
+
+.register > input {
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+    justify-content: center;
+}
+
+.register > .button {
+    background: #2E2C2C;
+    border: 1px solid #2E2C2C;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+}
+h1{
+    margin-left:-4px;
+    margin-bottom: 50px;
+}
+.err{
+    margin-bottom: 6px;
+    color: red;
+    text-align: left;
+    margin-left: 11px;
+}
+
+ .newBtn8{
+    width: 92%;
+    height: 37px;
+    background: #2E2C2C;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #2E2C2C;
+    margin: 0.5rem 0;
+ }

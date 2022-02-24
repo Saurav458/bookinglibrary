@@ -1,0 +1,74 @@
+.parent-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: -36px;
+  margin-left: -28px;
+}
+.child-div {
+  display: flex;
+}
+.cart-items {
+  width: 73%;
+  height: 203px;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 33px;
+  margin-top: 43px;
+  @media (max-width: 767px) {
+    text-align: center;
+  }
+  @media (max-width: 400px) {
+    text-align: left;
+  }
+}
+
+.img {
+  width: 125px;
+  height: 152px;
+  margin-top: -76px;
+}
+.heading {
+  margin-left: 149px;
+  margin-bottom: -80px;
+}
+.newBtn {
+  height: 33px;
+  width: 109px;
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  outline: none;
+  text-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 3px;
+}
+.para {
+  margin-top: 83px;
+  margin-left: 150px;
+}
+.anchor {
+  color: black;
+  margin-left: 17px;
+}
+.anchor2 {
+  color: black;
+  margin-left: 23px;
+  font-size: 20px;
+}
+.heading4 {
+  margin-top: -5px;
+}
+.newBtn3 {
+  margin: 20px;
+  margin-left: 918px;
+  width: 109px;
+  height: 33px;
+  background-color: black;
+  border: none;
+  outline: none;
+  text-align: center;
+  align-items: center;
+  color: white;
+  border-radius: 3px;
+}

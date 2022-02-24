@@ -1,0 +1,73 @@
+
+  
+
+/* *{
+    overflow: hidden;
+} */
+.header{
+    background-color:lightgray;
+    width: 98%;
+    height: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+.App1{
+    width: 100vw;
+    height: 100vh;
+}
+.header .left-side{
+    /* background-color: red; */
+    flex: 30%;
+
+}
+.header .middle-side{
+    /* background-color: blue; */
+    flex: 40%;
+    color: black;
+
+}
+.header .right-side{
+    /* background-color: green; */
+    flex: 30%;
+    
+
+}
+.input{
+    margin-top: 22px;
+    width: 70%;
+    height: 50%;
+    border: none;
+    border-radius: 4px;
+    align-items: center;
+   
+}
+.newBtn2{
+    margin: 20px;
+    /* margin-right: -77px; */
+    margin-left: 207px;
+    /* padding: 4px; */
+    width: 109px;
+    height: 33px;
+    background-color: black;
+    border: none;
+    outline: none;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border-radius: 3px;
+}
+
+.img1{
+    width: 98vw;
+     background-repeat: no-repeat;
+   
+ }
+ .img-icon{
+     width:7%;
+     border-radius: 4px;
+ }
+ .Icon{
+     margin-left: 16px;
+     margin-top: 21px;
+ }
+ 
