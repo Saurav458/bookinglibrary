@@ -9,7 +9,7 @@ class Dialogbox extends Component {
         <Popup
         >
           <div>{this.props.Message}</div>
-          {alert("saurav")}
+        
          
         </Popup>
       </div>
