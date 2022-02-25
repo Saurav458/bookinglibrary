@@ -2,12 +2,14 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "./login.css";
- import { Link } from "react-router-dom";
- import Header from "../Header/Header";
+  import { Link } from "react-router-dom";
+//  import Header from "../Header/Header";
+//  import Dialogbox from "./Components/Popupp/Dialogbox";
 class Login extends Component {
   constructor(props) {
     super(props);
     this.state = {
+     
       user: {
         email: "",
         password: "",
@@ -145,26 +147,26 @@ class Login extends Component {
     }
     if (
       regex.test(this.state.user.email) &&
-      this.state.user.password.length > 6
+      this.state.user.password.length >= 6
     ) {
-      // const email=this.state.user.email;
-      // const password=this.state.user.password;
-      // <Header email={email}/>
+      
     axios
       .post("http://localhost:8000/login", this.state.user)
-      .then((res) => console.log(res))
-      .catch((error)=>{
-        console.log(error)
-      })
-      //  if(res.data.message=="Login Succesfully"){
-      //    window.location.href="http://localhost:3000/header";
-      //  }
+      .then((response) =>console.log(response))
+      .catch((err) => {
+           console.log("saurav");
+       });
+        // if(res.data.message=="Login Succesfully"){
+        //   window.location.href="http://localhost:3000/header";
+        // }
+      
 
     }
   }
 
   render() {
     return (
+      //  {this.state.istriggered?<Pop Message={Message}/>: ""}
       <div className="parent-div-login">
         <img src="https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" />
         <div className="login">
